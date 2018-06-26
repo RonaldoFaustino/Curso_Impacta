@@ -1,0 +1,11 @@
+
+public class ExemploMetodo {
+	
+	static void exibirNome(){
+		for (int i = 0; i<10; i++){
+			System.out.println("Manoel " + i);
+		}
+	}
+
+}
+
