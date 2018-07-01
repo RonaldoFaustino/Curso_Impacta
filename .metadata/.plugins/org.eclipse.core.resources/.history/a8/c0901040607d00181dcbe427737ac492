@@ -1,0 +1,15 @@
+package carro;
+
+public class Garagem {
+	
+	public Carro carroPasseio = new Carro();
+	public Carro carrosUtilitario = new Carro();
+	
+	public static void main(String[]args){
+		
+		Garagem g new Garagem();
+		g.carroPasseio.cor = "vermolho";
+		
+	}
+
+}

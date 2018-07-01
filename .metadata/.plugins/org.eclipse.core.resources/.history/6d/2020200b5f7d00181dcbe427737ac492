@@ -1,0 +1,9 @@
+package carro;
+
+public class Carro {
+	
+	String modelo;
+	Double potencia_do_motor;
+	String cor;
+	
+}

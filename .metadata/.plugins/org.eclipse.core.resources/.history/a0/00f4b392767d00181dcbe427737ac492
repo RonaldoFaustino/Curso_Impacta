@@ -1,0 +1,26 @@
+package aluno;
+
+public class Aula7_Labs5 {
+
+	public static void main(String[] args) {
+		
+		Aluno joao = new Aluno();
+		joao.setNome("João");
+		joao.contadorDeAlunos++;
+		joao.imprimeAluno();
+		System.out.println("Contagem do Objeto joão: " + joao.contadorDeAlunos + "/n");
+	
+	
+		Aluno maria = new Aluno();
+		maria.setNome("João");
+		maria.contadorDeAlunos++;
+		maria.imprimeAluno();
+		System.out.println("Contagem do Objeto Maria: " + maria.contadorDeAlunos + "/n");
+		
+		Aluno pedro = new Aluno();
+		pedro.setNome("João");
+		pedro.contadorDeAlunos++;
+		pedro.imprimeAluno();
+		System.out.println("Contagem do Objeto Maria: " + pedro.contadorDeAlunos + "/n");
+	}
+}
