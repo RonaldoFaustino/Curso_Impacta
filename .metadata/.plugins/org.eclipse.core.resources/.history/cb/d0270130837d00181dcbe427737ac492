@@ -1,0 +1,32 @@
+package cadastro;
+
+public class Casdastro {
+	
+	private String nome;
+	private String sobrenome;
+	private int idade;
+	
+	public Cadastro(){
+		
+	}
+	
+	public Cadastro(String nome, String sobrenome){
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+	}
+	
+	public Cadastro(String nome, String sobrenome, int idade){
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		this.idade = idade;
+	}
+	
+	public mostrar(){
+		System.out.println("Nome: "+ nome);
+		System.out.println("Sobrenome: "+ sobrenome);
+		System.out.println("Idade: "+ idade);
+		System.out.println();
+		
+	}
+
+}
